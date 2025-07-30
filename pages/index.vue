@@ -1,5 +1,8 @@
 <template>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
   <HomeHero />
   <HomeOverview />
@@ -13,11 +16,11 @@
       :description="skill.description"
       :icon="skill.icon"
       :color="skill.color"
-      />
+    />
   </div>
   <HomeIntro />
- <HomeMyWork /> 
- 
+  <HomeMyWork />
+
   <div
     class="max-w-7xl mx-auto items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-8"
   >
@@ -34,7 +37,6 @@
 </template>
 
 <script setup>
-
 const myref = ref("");
 
 const projects = [
@@ -90,7 +92,5 @@ const skills = [
     icon: "uil:vuejs",
     color: "green",
   },
-]
-
+];
 </script>
-
