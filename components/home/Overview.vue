@@ -1,6 +1,6 @@
 <template>
-    <div class="max-w-7xl mx-auto py-12">
-        <div>
+    <div class="max-w-full bg-gray-100  mx-auto py-12">
+        <div class="max-w-7xl mx-auto">
           <span class="text-red-600 py-2 text-xl font-medium">Introduction</span>
           <h1 class="text-5xl font-medium py-4">Overview</h1>
           <p class="max-w-2xl text-gray-500 font-medium text-lg">
