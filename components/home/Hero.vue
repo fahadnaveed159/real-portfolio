@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl mx-auto flex justify-between p-10 items-center animate__animated animate__backInLeft">
+  <div class="max-w-7xl mx-auto flex justify-between py-8 items-center animate__animated animate__backInLeft">
     <div class="w-96 py-8">
       <h1 class="text-5xl font-bold text-primary py-2">
         Hello ! <br />

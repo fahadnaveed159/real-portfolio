@@ -1,7 +1,7 @@
 <template>
 
 
-    <nav class="bg-white border-gray-200 dark:bg-gray-900 animate__animated animate__backInDown">
+    <nav class="bg-white border-gray-200  animate__animated animate__backInDown">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtb3VMQ_bInFfyWDi-30eQmhbVtA40UIKxXRlCLaHQNsWEpfeMxEFompzuc4XEAR-WAVc&usqp=CAU" alt="" class="w-16">

@@ -11,7 +11,7 @@
           <img src="/flamingtext_com-2408185840.png" alt="" class="w-24" />
         </div>
         <ul
-          class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"
+          class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 "
         >
           <li v-for="(link, index) in links" :key="index">
             <a :href="link.url" class="hover:underline me-4 md:me-6">{{link.name}}</a>
@@ -22,7 +22,7 @@
         class="my-6 border-gray-200 sm:mx-auto  lg:my-8"
       />
       <span
-        class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
+        class="block text-sm text-gray-500 sm:text-center "
         >© 2025
         <a href="https://flowbite.com/" class="hover:underline"></a> Fahad
         Portfolio.❤️ All Rights Reserved.</span
