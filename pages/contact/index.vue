@@ -17,12 +17,22 @@
         details soon! Cheers, Fahad
       </p>
       <div class="w-full bg-red-600 h-1"></div>
-      <div class="flex flex-col items-center mt-8 space-y-2">
-        <p class="mt-4 text-gray-500 font-medium">📧 fahad@example.com</p>
+      <div class="flex justify-center items-center space-x-12 py-10 font-medium">
+        <div>
+          <h1>Email</h1>
+        <p class=" text-gray-500 font-medium">📧 fahad@example.com</p>
+        </div>
+        <div>
+          <h1>Phone:</h1>
         <p class="text-gray-600">📱 +92 311 1023951</p>
+        </div>
+        <div>
+          <h1>Address</h1>
+          <p class="text-gray-600"> North-Karachi Makkah Hotel L-1 </p>
+        </div>
       </div>
 
-      <div class="mt-4 flex justify-center space-x-4">
+      <div class=" flex justify-center space-x-4">
         <a
           href="https://github.com/"
           target="_blank"
@@ -35,14 +45,14 @@
           target="_blank"
           class="transform transition-transform duration-300 hover:scale-125 hover:-translate-y-1"
         >
-          <Icon name="uil:linkedin" style="color: blue" size="25" />
+          <Icon name="uil:linkedin" style="color: black" size="25" />
         </a>
         <a
           href="https://wa.me/923111023951"
           target="_blank"
           class="transform transition-transform duration-300 hover:scale-125 hover:-translate-y-1"
         >
-          <Icon name="uil:whatsapp" style="color: green" size="25" />
+          <Icon name="uil:whatsapp" style="color: black" size="25" />
         </a>
       </div>
     </div>
