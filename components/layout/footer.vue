@@ -77,7 +77,7 @@ const socialLinks = [
         name: "Facebook",
         url: "https://www.facebook.com/profile.php?id=61565171947376",
         icon: "uil:facebook",
-        color: "darkblue"
+        color: "black"
     },
     {
         name: "Facebook",
@@ -89,13 +89,13 @@ const socialLinks = [
         name: "LinkedIn",
         url: "https://www.linkedin.com/feed/?nis=true",
         icon: "uil:linkedin",
-        color: "blue"
+        color: "black"
     },
     {
         name: "Instagram",
         url: "https://www.instagram.com/fahadnaveed738/?next=%2F",
         icon: "uil:instagram",
-        color: "red"
+        color: "black"
     }
 ]
 </script>

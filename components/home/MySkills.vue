@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-7xl py-8 mx-auto flex flex-col justify-center items-center">
+    <div class="max-w-7xl py-12 mx-auto flex flex-col justify-center items-center">
         <div>
           <h1 class="text-5xl font-bold flex gap-2">
             My<span class="text-red-600">Skills</span>

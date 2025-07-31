@@ -13,10 +13,10 @@
       </p>
     </div>
   </div>
-  <div class="flex justify-between mt-16 py-8 max-w-7xl mx-auto animate__animated animate__backInLeft">
-    <div class="h-96 w-96">
+  <div class="flex justify-between bg-gray-100 mt-16 py-12 max-w-full px-16 mx-auto animate__animated animate__backInLeft">
+    <div class="max-w-96">
       <img
-        src="/IMG-20250507-WA0008.jpg"
+        src="/IMG-20240412-WA0079.jpg"
         alt=""
         class="rounded-xl w-full h-full object-cover"
       />
