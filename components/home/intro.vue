@@ -1,5 +1,5 @@
 <template>
-<div class="max-w-full px-12 mt-8 mx-auto flex justify-between items-center py-12 bg-gray-100">
+<div class="max-w-full px-8 mt-8 mx-auto flex space-x-10 gap-10 items-center py-12 bg-gray-100">
     <div
       class="flex relative h-[550px] w-[550px] items-center justify-center bg-center"
     >

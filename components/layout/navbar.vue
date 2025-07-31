@@ -10,7 +10,7 @@
         </div>
          
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
               <li v-for="item in navLinks" :key="item.name">
                 <NuxtLink :to="item.name" class=" py-2 px-3 md:text-black relative inline-block text-black after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-[30%] after:bg-black after:transition-all after:duration-300 hover:after:w-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-red-500   md:p-0" aria-current="page">{{item.name}}</NuxtLink>
               </li>
