@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white">
+  <div class="max-w-sm mx-auto rounded-2xl overflow-hidden shadow-lg bg-white md:px-0 px-5 ">
     <img
       class="w-full h-48 object-cover"
       :src="props.imageUrl"

@@ -1,6 +1,6 @@
 <template>
     <div
-      class="w-72 h-60 border text-black rounded-xl shadow-lg m-4 flex justify-center items-center hover:scale-105 transition duration-300 ease-in-out"
+      class="md:w-72 max-w-72 mx-auto md:h-60 border text-black rounded-xl shadow-lg m-4 flex justify-center items-center hover:scale-105 transition duration-300 ease-in-out"
     >
       <div
         class="flex p-5 text-center flex-col justify-center py-2 items-center h-full w-full"

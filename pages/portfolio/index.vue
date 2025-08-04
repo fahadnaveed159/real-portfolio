@@ -1,8 +1,8 @@
 <template>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-  <div class="max-w-7xl mx-auto py-12 animate__animated animate__backInLeft">
-    <div class="text-center">
+  <div class="max-w-7xl mx-auto py-12 animate__animated animate__backInLeft md:px-0 px-7">
+    <div class="text-center py-6">
       <h1 class="text-4xl py-2 font-bold">
         "Explore My <span class="text-red-600">Portfolio"</span>
       </h1>
@@ -11,12 +11,12 @@
         modern frameworks.
       </p>
     </div>
-    <h1 class="text-4xl font-bold py-12">
+    <h1 class="text-4xl font-bold py-12 ">
       "My Recent <span class="text-red-600">Projects"</span>
     </h1>
     <div>
       <div
-        class="grid grid-cols-1  cursor-pointer lg:grid-cols-3 gap-4"
+        class="grid grid-cols-1 md:space-y-0 space-y-4 cursor-pointer lg:grid-cols-3 gap-4"
       >
         <LazyHomeWork
           v-for="(work, index) in works"

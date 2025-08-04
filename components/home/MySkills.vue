@@ -1,7 +1,7 @@
 <template>
     <div class="max-w-7xl py-12 mx-auto flex flex-col justify-center items-center">
         <div>
-          <h1 class="text-5xl font-bold flex gap-2">
+          <h1 class="md:text-5xl text-4xl font-bold flex gap-2">
             My<span class="text-red-600">Skills</span>
           </h1>
         </div>
@@ -9,10 +9,10 @@
           <div class="flex gap-4 mt-5">
             
             <div v-for="(skink, index) in sklLinks" :key="index"
-              :class="`w-20 h-20  rounded-full flex justify-center items-center ${skink.bg}`"
+              :class="`md:w-20 w-14 md:h-20 h-14  rounded-full flex justify-center items-center ${skink.bg}`"
             >
 
-              <Icon :name="skink.icon" :style="`color: ${skink.color}`" size="40" />
+              <Icon :name="skink.icon" :style="`color: ${skink.color}`"  class="md:w-10 w-6 md:h-10 h-6" />
             </div>
           </div>
         </div>

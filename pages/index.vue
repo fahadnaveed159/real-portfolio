@@ -8,7 +8,7 @@
   <HomeOverview />
   <HomeMySkills />
 
-  <div class="max-w-7xl flex mx-auto cursor-pointer">
+  <div class="max-w-7xl md:flex flex-wrap mx-auto cursor-pointer">
     <LazyHomeSkillCard
       v-for="(skill, index) in skills"
       :key="index"
@@ -22,7 +22,7 @@
   <HomeMyWork />
 
   <div
-    class="max-w-7xl mx-auto items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-8"
+    class="max-w-7xl mx-auto items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-8 md:space-y-0 space-y-4 md:px-0 px-5"
   >
     <LazyHomeProjectCard
       v-for="(project, index) in projects"

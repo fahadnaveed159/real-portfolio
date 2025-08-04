@@ -1,17 +1,17 @@
 <template>
   <footer class="bg-white rounded-lg shadow-sm  m-4">
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8 md:text-start text-center">
       <div class="sm:flex sm:items-center sm:justify-between">
-        <div class="flex items-center mb-4 sm:mb-0" @click="openModal">
+        <div class="flex items-center justify-center mb-4 sm:mb-0" @click="openModal">
           <img
-            class="w-16 me-3"
+            class="md:w-16 w-12 me-3"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtb3VMQ_bInFfyWDi-30eQmhbVtA40UIKxXRlCLaHQNsWEpfeMxEFompzuc4XEAR-WAVc&usqp=CAU"
             alt="Flowbite Logo"
           />
-          <img src="/flamingtext_com-2408185840.png" alt="" class="w-24" />
+          <img src="/flamingtext_com-2408185840.png" alt="" class="md:w-24 w-20" />
         </div>
         <ul
-          class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 "
+          class="flex flex-wrap justify-center items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 "
         >
           <li v-for="(link, index) in links" :key="index">
             <a :href="link.url" class="hover:underline me-4 md:me-6">{{link.name}}</a>
@@ -29,10 +29,10 @@
       >
     </div>
     <div
-      class="flex justify-center items-center space-x-3 w-full rtl:space-x-reverse mt-2"
+      class="flex justify-center items-center space-x-3  rtl:space-x-reverse mt-2"
     >
       <a v-for="(sLink, index) in socialLinks" :key="index"
-        class="transform transition-transform duration-300 hover:scale-125 hover:-translate-y-1"
+        class="transform transition-transform duration-300 hover:scale-125 hover:-translate-y-1 "
         :href="sLink.url"
         target="_blank"
         ><Icon :name="sLink.icon" :style="`color: ${sLink.color}`" size="25"

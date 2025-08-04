@@ -5,9 +5,9 @@
   />
 
   <div
-    class="max-w-7xl mx-auto flex justify-center py-8 items-center animate__animated animate__backInLeft"
+    class="max-w-7xl mx-auto md:px-0 px-5 flex justify-center py-8 items-center animate__animated animate__backInLeft"
   >
-    <div class="text-center py-8">
+    <div class="text-center py-8 ">
       <h1 class="text-4xl font-bold">
         ❤️ Thank You For <span class="text-red-600">Contact Me</span>
       </h1>
@@ -17,7 +17,7 @@
         details soon! Cheers, Fahad
       </p>
       <div class="w-full bg-red-600 h-1"></div>
-      <div class="flex justify-center items-center space-x-12 py-10 font-medium">
+      <div class="flex justify-center md:flex-row flex-col  items-center md:space-x-12 space-x-0 md:space-y-0 space-y-5 py-10 font-medium">
         <div>
           <h1>Email</h1>
         <p class=" text-gray-500 font-medium">📧 fahad@example.com</p>

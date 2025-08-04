@@ -1,17 +1,17 @@
 <template>
-  <div class="max-w-7xl mx-auto flex justify-between py-8 items-center animate__animated animate__backInLeft">
-    <div class="w-96 py-8">
-      <h1 class="text-5xl font-bold text-primary py-2">
-        Hello ! <br />
+  <div class="max-w-7xl mx-auto md:flex flex-wrap justify-between py-8 items-center animate__animated animate__backInLeft">
+    <div class="md:max-w-96 max-w-96 md:mx-0 mx-auto py-8 md:px-0 px-5 md:text-start text-center">
+      <h1 class="md:text-5xl text-4xl font-bold text-primary py-2  leading-tight">
+        Hello !  <br />
         i Am <span class="text-red-600">Developer</span>
       </h1>
       <p class="text-gray-500 font-medium text-lg">
         "Frontend Developer focused on simplicity and performance. "Building
         seamless interfaces with modern web technologies.""
       </p>
-      <div class="flex space-x-3 w-full rtl:space-x-reverse mt-5">
+      <div class="flex md:justify-start justify-center space-x-3 w-full mt-5">
         <a v-for="(sLink, index) in socialLinks" :key="index"
-        class="transform transition-transform duration-300 hover:scale-125 hover:-translate-y-1"
+        class="transform transition-transform duration-300 hover:scale-125 hover:-translate-y-1 "
         :href="sLink.url"
         target="_blank"
         ><Icon :name="sLink.icon" :style="`color: ${sLink.color}`" size="25"
@@ -19,20 +19,20 @@
       </div>
     </div>
     <div
-      class="flex relative h-[550px] w-[550px] items-center justify-center bg-center"
+      class="flex relative  h-[550px] max-w-[550px] md:w-[550px] items-center  justify-center bg-center"
     >
-      <div class="h-72 w-72">
+      <div class="md:h-80 h-60 md:w-80 w-60">
         <img
           src="/public/Screenshot_2023-12-20-03-04-14-00.png"
           alt=""
           class="object-cover rounded-full h-full w-full"
         />
       </div>
-      <div class="absolute top-0 z-40">
+      <div class="absolute md:top-0 z-40">
         <img
           src="/textures.png"
           alt=""
-          class="object-cover rounded-full w-full h-full"
+          class="object-cover rounded-full md:w-full w-96 md:h-full h-96"
         />
       </div>
     </div>

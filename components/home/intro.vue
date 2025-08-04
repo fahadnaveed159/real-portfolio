@@ -1,6 +1,6 @@
 <template>
-<div class="w-full bg-gray-100">
-    <div class="max-w-7xl  mt-8 mx-auto flex gap-10 justify-between items-center py-12">
+<div class="md:max-w-full max-w-md mx-auto bg-gray-100">
+    <div class="max-w-7xl mt-8 mx-auto flex md:flex-row flex-col gap-10 justify-between items-center py-12">
       <div
         class="flex h-full w-1/2 items-center justify-center bg-center"
       >
@@ -15,17 +15,17 @@
           <img
             src="/textures.png"
             alt=""
-            class="object-cover rounded-full w-full h-full"
+            class="object-cover rounded-full md:w-full w-64 md:h-full h-64"
           />
           <img
             src="/IMG-20250203-WA0102.jpg"
             alt="KKJKJK"
-            class="object-cover z-50 top-1/2 left-1/2  absolute -translate-x-1/2 -translate-y-1/2 rounded-full h-80 w-80"
+            class="object-cover z-50 top-1/2 left-1/2  absolute -translate-x-1/2 -translate-y-1/2 rounded-full md:h-80 h-40 md:w-80 w-40"
           />
         </div>
       </div>
-      <div class="max-w-2xl ml-14">
-        <h1 class="text-5xl font-bold py-2">
+      <div class="max-w-2xl md:ml-14 ml-0 md:px-0 px-5 ">
+        <h1 class="md:text-5xl text-4xl font-bold py-2 md:mb-0 mb-4 md:text-start text-center">
           About <span class="text-red-600">Me</span>
         </h1>
         <p class="text-lg font-medium text-gray-500">

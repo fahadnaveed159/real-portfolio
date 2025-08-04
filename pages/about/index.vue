@@ -5,7 +5,7 @@
     class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col items-center animate__animated animate__backInLeft"
   >
     <div class="text-center mb-8">
-      <h1 class="text-5xl font-bold">
+      <h1 class="md:text-5xl text-4xl font-bold">
         About <span class="text-red-600">Me</span>
       </h1>
       <p class="text-lg text-gray-500 font-medium py-2">
@@ -14,15 +14,15 @@
     </div>
   </div>
   <div class="w-full bg-gray-100 ">
-    <div class="flex justify-between mt-16 py-12 max-w-7xl  mx-auto animate__animated animate__backInLeft">
+    <div class="flex justify-between mt-16 py-12 max-w-7xl md:flex-row flex-col md:px-0 px-5 mx-auto animate__animated animate__backInLeft">
       <div class="max-w-96">
         <img
           src="/IMG-20240412-WA0079.jpg"
           alt=""
-          class="rounded-xl w-full h-full object-cover"
+          class="rounded-xl md:w-full w-96 h-full object-cover"
         />
       </div>
-      <div>
+      <div class="md:py-0 py-8 md:mt-0 mt-5">
         <h1 class="text-4xl font-bold">
           Hello I'am <span class="text-red-600">Fahad Khan</span>
         </h1>
