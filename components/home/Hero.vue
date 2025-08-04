@@ -1,13 +1,13 @@
 <template>
   <div class="max-w-7xl mx-auto md:flex flex-wrap justify-between py-8 items-center animate__animated animate__backInLeft">
     <div class="md:max-w-96 max-w-96 md:mx-0 mx-auto py-8 md:px-0 px-5 md:text-start text-center">
-      <h1 class="md:text-5xl text-4xl font-bold text-primary py-2  leading-tight">
-        Hello !  <br />
-        i Am <span class="text-red-600">Developer</span>
+      <h1 class="md:text-5xl text-4xl font-bold text-primary py-2 ">
+        Hello ! 
+        i Am <span class="text-red-600 animate__animated leading-tight" :class="currentAnimation">{{ currentName }}</span>
       </h1>
       <p class="text-gray-500 font-medium text-lg">
-        "Frontend Developer focused on simplicity and performance. "Building
-        seamless interfaces with modern web technologies.""
+        "Frontend Developer focused on simplicity and performance. Building
+        seamless interfaces with modern web technologies."
       </p>
       <div class="flex md:justify-start justify-center space-x-3 w-full mt-5">
         <a v-for="(sLink, index) in socialLinks" :key="index"
@@ -40,7 +40,37 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 
+const names = [
+    "Fahad Khan",
+    "  Developer",
+    " UI UX Designer",
+    " Web Developer",
+    " React Developer"
+];
+
+const currentName = ref(names[0]);
+const currentAnimation = ref('animate__fadeIn');
+let intervalId;
+let currentIndex = 0;
+
+const updateName = () => {
+    currentAnimation.value = 'animate__fadeOut';
+    setTimeout(() => {
+        currentIndex = (currentIndex + 1) % names.length;
+        currentName.value = names[currentIndex];
+        currentAnimation.value = 'animate__fadeIn';
+    }, 500); // Half the interval for smooth transition
+};
+
+onMounted(() => {
+    intervalId = setInterval(updateName, 3000); // Change every 3 seconds
+});
+
+onBeforeUnmount(() => {
+    if (intervalId) clearInterval(intervalId);
+});
 
 const socialLinks = [
     {
