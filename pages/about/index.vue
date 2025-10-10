@@ -13,7 +13,7 @@
       </p>
     </div>
   </div>
-  <div class="w-full bg-gray-100 ">
+  <div class="w-full bg-gradient-to-t from-slate-300 to-white ">
     <div class="flex justify-between mt-16 py-12 max-w-7xl md:flex-row flex-col md:px-0 px-5 mx-auto animate__animated animate__backInLeft">
       <div class="max-w-96">
         <img

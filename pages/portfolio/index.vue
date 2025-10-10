@@ -4,7 +4,7 @@
   <div class="max-w-7xl mx-auto py-12 animate__animated animate__backInLeft md:px-0 px-7">
     <div class="text-center py-6">
       <h1 class="text-4xl py-2 font-bold">
-        "Explore My <span class="text-red-600">Portfolio"</span>
+        "Explore My <span class="text-red-600">Projects"</span>
       </h1>
       <p class="text-gray-500 font-medium text-lg">
         Here are some of the projects I’ve built using HTML, CSS, JavaScript and
@@ -16,7 +16,7 @@
     </h1>
     <div>
       <div
-        class="grid grid-cols-1 md:space-y-0 space-y-4 cursor-pointer lg:grid-cols-3 gap-4"
+        class="grid grid-cols-1 md:space-y-0 space-y-4 cursor-pointer lg:grid-cols-3 gap-12"
       >
         <LazyHomeWork
           v-for="(work, index) in works"
@@ -36,7 +36,9 @@ const works = [
     title: "Shofilm",
     description:
       "ShoFilm is Pakistan's leading movie streaming platform, bringing you the best in cinema entertainment. Contact us for partnerships, feedback, or just to say hello!",
-    imageUrl: "/jay-prajapati-IujrMtnzYP8-unsplash.jpg",
+    imageUrl: "shofilm.png",
+    button: "View Project",
+    target: "https://shofilm.vercel.app/",
   },
   {
     title: "Utility-Project",
@@ -45,10 +47,10 @@ const works = [
     imageUrl: "/glenn-carstens-peters-SL5d_8ywAAA-unsplash.jpg",
   },
   {
-    title: "Dashbord UI",
+    title: "E Commerce Store",
     description:
-      "Dashboard UI is a visually organized interface that presents key information, statistics, and controls in one central location. It is designed to provide users with a quick overview .",
-    imageUrl: "/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg",
+      "E Commerce Store is a fully functional online shopping platform built with modern web technologies. It offers a seamless shopping experience with features like product listings, shopping cart, and secure checkout.",
+    imageUrl: "eccommers.png",
   },
   {
     title: "Coding-Project",

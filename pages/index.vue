@@ -22,7 +22,7 @@
   <HomeMyWork />
 
   <div
-    class="max-w-7xl mx-auto items-center grid grid-cols-1 md:grid-cols-3 gap-4 py-8 md:space-y-0 space-y-4 md:px-0 px-5"
+    class="max-w-7xl mx-auto items-center  grid grid-cols-1 md:grid-cols-3 gap-4 py-8 md:space-y-0 space-y-4 md:px-0 px-5 cursor-pointer"
   >
     <LazyHomeProjectCard
       v-for="(project, index) in projects"
@@ -44,7 +44,7 @@ const projects = [
     title: "Shofilm",
     description:
       "ShoFilm is Pakistan's leading movie streaming platform, bringing you the best in cinema entertainment. Contact us for partnerships, feedback, or just to say hello!",
-    imageUrl: "/jay-prajapati-IujrMtnzYP8-unsplash.jpg",
+    imageUrl: "shofilm.png",
     target: "https://shofilm.vercel.app/",
   },
   {
@@ -55,11 +55,11 @@ const projects = [
     target: "https://github.com/fahadnaveed159/Utility-Project",
   },
   {
-    title: "Dashbord UI",
+    title: "E Commerce Store",
     description:
-      "Dashboard UI is a visually organized interface that presents key information, statistics, and controls in one central location. It is designed to provide users with a quick overview .",
-    imageUrl: "/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg",
-    target: "https://github.com/fahadnaveed159/DashboardUI",
+      "E Commerce UI is a visually organized interface that presents key information, statistics, and controls in one central location. It is designed to provide users with a quick overview.",
+    imageUrl: "eccommers.png",
+    target: "https://fk-ecommerce.vercel.app/",
   },
 ];
 

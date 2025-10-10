@@ -1,5 +1,5 @@
 <template>
-<div class="md:max-w-full max-w-md mx-auto bg-gray-100">
+<div class="md:max-w-full max-w-md mx-auto bg-gradient-to-b from-gray-300 to-white md:px-0 px-5">
     <div class="max-w-7xl mt-8 mx-auto flex md:flex-row flex-col gap-10 justify-between items-center py-12">
       <div
         class="flex h-full w-1/2 items-center justify-center bg-center"

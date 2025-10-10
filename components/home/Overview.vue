@@ -1,5 +1,5 @@
 <template>
-    <div class="md:max-w-full max-w-96 bg-gray-100 md:px-0 px-5 mx-auto py-12">
+    <div class="md:max-w-full max-w-96 bg-gradient-to-r from-white to-gray-300 md:px-0 px-5 mx-auto py-12">
         <div class="max-w-7xl mx-auto">
           <span class="text-red-600 py-2 text-xl font-medium">Introduction</span>
           <h1 class="md:text-5xl text-4xl font-medium py-4">Overview</h1>

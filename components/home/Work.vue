@@ -10,6 +10,7 @@
       <p class="text-gray-500">
         {{props.description }}
       </p>
+     
     </div>
   </div>
 </template>
@@ -28,5 +29,6 @@ const props = defineProps({
     type: String,
     default: "",
   },
+ 
 });
 </script>
