@@ -5,7 +5,7 @@ import Navbar from '~/components/layout/navbar.vue';
 </script>
 
 <template>
-    <div>
+    <div class="bg-black">
         <Navbar />
         <NuxtPage class="min-h-[500px]" />
         <Footer />

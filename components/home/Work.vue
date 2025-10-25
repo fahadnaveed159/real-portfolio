@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition duration-300 ease-in-out"
+    class=" shadow-lg rounded-lg overflow-hidden hover:scale-105 transition duration-300 ease-in-out"
   >
     <img :src="props.image" alt="Project 1" class="w-full h-48 object-cover" />
     <div class="p-4 flex flex-col justify-center items-center text-center">

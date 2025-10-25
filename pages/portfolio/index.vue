@@ -3,20 +3,20 @@
 
   <div class="max-w-7xl mx-auto py-12 animate__animated animate__backInLeft md:px-0 px-7">
     <div class="text-center py-6">
-      <h1 class="text-4xl py-2 font-bold">
+      <h1 class="text-4xl py-2 font-extrabold text-gray-300">
         "Explore My <span class="text-red-600">Projects"</span>
       </h1>
-      <p class="text-gray-500 font-medium text-lg">
+      <p class="text-gray-400 font-medium text-lg">
         Here are some of the projects I’ve built using HTML, CSS, JavaScript and
         modern frameworks.
       </p>
     </div>
-    <h1 class="text-4xl font-bold py-12 ">
+    <h1 class="text-4xl font-extrabold py-12 text-gray-300">
       "My Recent <span class="text-red-600">Projects"</span>
     </h1>
     <div>
       <div
-        class="grid grid-cols-1 md:space-y-0 space-y-4 cursor-pointer lg:grid-cols-3 gap-12"
+        class="grid grid-cols-1 text-gray-300 md:space-y-0 space-y-4 cursor-pointer lg:grid-cols-3 gap-12"
       >
         <LazyHomeWork
           v-for="(work, index) in works"

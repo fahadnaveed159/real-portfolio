@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="bg-white border-gray-200 under animate__animated animate__backInDown md:py-0 py-2"
+    class="bg-white border-gray-200 under  md:py-0 py-2"
   >
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:p-4 p-2"

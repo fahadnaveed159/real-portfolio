@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white rounded-lg shadow-sm  m-4">
+  <footer class="bg-white  shadow-sm w-full ">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8 md:text-start text-center">
       <div class="sm:flex sm:items-center sm:justify-between">
         <div class="flex items-center justify-center mb-4 sm:mb-0" @click="openModal">

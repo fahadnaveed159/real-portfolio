@@ -1,15 +1,16 @@
 <template>
-  <div class="w-full bg-gradient-to-t mb-12 from-gray-400 via-white to-white">
+  <div class="w-full  mb-12 bg-[#ffff]">
     <div
       class="max-w-7xl mx-auto md:flex flex-wrap justify-between py-8 items-center animate__animated animate__backInLeft"
     >
       <div
         class="md:max-w-96 max-w-96 md:mx-0 mx-auto py-8 md:px-0 px-5 md:text-start text-center"
       >
+      <span class="text-2xl font-medium">Hello <span class="text-red-600">i</span> Am</span>
         <h1 class="md:text-5xl text-4xl font-bold text-primary py-2">
-          Hello ! i Am
+            
           <span
-            class="text-red-600 animate__animated leading-tight"
+            class="text-red-600 animate__animated leading-tight font-extrabold"
             :class="currentAnimation"
             >{{ currentName }}</span
           >
@@ -58,7 +59,7 @@ import { ref, onMounted, onBeforeUnmount } from "vue";
 
 const names = [
   "Fahad Khan",
-  "  Developer",
+  "Fronten Developer",
   " UI UX Designer",
   " Web Developer",
   " React Developer",

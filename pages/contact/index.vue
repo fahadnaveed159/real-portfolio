@@ -8,10 +8,10 @@
     class="max-w-7xl mx-auto md:px-0 px-5 flex justify-center py-8 items-center animate__animated animate__backInLeft"
   >
     <div class="text-center py-8 ">
-      <h1 class="text-4xl font-bold">
+      <h1 class="text-4xl font-extrabold text-gray-300">
         ❤️ Thank You For <span class="text-red-600">Contact Me</span>
       </h1>
-      <p class="py-2 pb-6 max-w-3xl">
+      <p class="py-2 pb-6 max-w-3xl text-gray-400">
         Hello 👋, Thank you for your interest in connecting. I’m excited 😊 to
         learn more about your project and how I can help. Let’s discuss further
         details soon! Cheers, Fahad
@@ -19,16 +19,16 @@
       <div class="w-full bg-red-600 h-1"></div>
       <div class="flex justify-center md:flex-row flex-col  items-center md:space-x-12 space-x-0 md:space-y-0 space-y-5 py-10 font-medium">
         <div>
-          <h1>Email</h1>
-        <p class=" text-gray-500 font-medium">📧 fahad@example.com</p>
+          <h1 class="text-gray-300">Email</h1>
+        <p class=" text-gray-400 font-medium">📧 fahad@example.com</p>
         </div>
         <div>
-          <h1>Phone:</h1>
-        <p class="text-gray-600">📱 +92 311 1023951</p>
+          <h1 class="text-gray-300">Phone:</h1>
+        <p class="text-gray-400">📱 +92 311 1023951</p>
         </div>
         <div>
-          <h1>Address</h1>
-          <p class="text-gray-600"> North-Karachi Makkah Hotel L-1 </p>
+          <h1 class="text-gray-300">Address</h1>
+          <p class="text-gray-400"> North-Karachi Makkah Hotel L-1 </p>
         </div>
       </div>
 

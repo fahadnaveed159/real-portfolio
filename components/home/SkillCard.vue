@@ -6,10 +6,10 @@
         class="flex p-5 text-center flex-col justify-center py-2 items-center h-full w-full"
       >
         <Icon :name="props.icon" :style="`color: ${props.color}`" size="40" />
-        <h1 class="py-2 text-lg font-bold">
+        <h1 class="py-2 text-lg font-bold text-gray-300">
             {{ props.name }}
         </h1>
-        <p class="text-gray-500 font-medium">
+        <p class="text-gray-400 font-medium">
           {{ props.description }}
         </p>
       </div>

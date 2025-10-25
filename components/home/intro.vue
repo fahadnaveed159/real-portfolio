@@ -1,5 +1,5 @@
 <template>
-<div class="md:max-w-full max-w-md mx-auto bg-gradient-to-b from-gray-300 to-white md:px-0 px-5">
+<div class="md:max-w-full max-w-md mx-auto bg-gradient-to-b bg-[#F8F8F8] md:px-0 px-5">
     <div class="max-w-7xl mt-8 mx-auto flex md:flex-row flex-col gap-10 justify-between items-center py-12">
       <div
         class="flex h-full w-1/2 items-center justify-center bg-center"
@@ -18,7 +18,7 @@
             class="object-cover rounded-full md:w-full w-64 md:h-full h-64"
           />
           <img
-            src="/IMG-20250203-WA0102.jpg"
+            src="/public/past-forward-1990s.jpg"
             alt="KKJKJK"
             class="object-cover z-50 top-1/2 left-1/2  absolute -translate-x-1/2 -translate-y-1/2 rounded-full md:h-80 h-40 md:w-80 w-40"
           />
