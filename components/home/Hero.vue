@@ -59,7 +59,7 @@ import { ref, onMounted, onBeforeUnmount } from "vue";
 
 const names = [
   "Fahad Khan",
-  "Fronten Developer",
+  "Frontend Developer",
   " UI UX Designer",
   " Web Developer",
   " React Developer",
