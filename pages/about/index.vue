@@ -17,7 +17,7 @@
     <div class="flex justify-between mt-16 py-12 max-w-7xl md:flex-row flex-col md:px-0 px-5 mx-auto animate__animated animate__backInLeft">
       <div class="max-w-96">
         <img
-          src="https://scontent.fkhi2-2.fna.fbcdn.net/v/t39.30808-6/557639166_122178327962505731_964276788367584773_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE1l_ZwDyn3fcFNBavWy3KjQiXdpTJXj3tCJd2lMlePe7G327RL8hKPEvu4pSamQFmurfHUHOLxpxF5a6tSd246&_nc_ohc=lWuJ1uQ-c4oQ7kNvwGRuE8L&_nc_oc=AdkhMKvQWPVPbSQv8qnSU1dT3kzTgF6bV47bxmrEZB4zt0nBjtyVBbK45B_B4-pjhDB9LOS5UqquQH0ynyIZNbqc&_nc_zt=23&_nc_ht=scontent.fkhi2-2.fna&_nc_gid=dmF9SEv_1i-3J7at-QfFMA&oh=00_AfehJsNHhM0tZy6YusztgeIRwFlLcK8HjBNSvraRu2HP7Q&oe=69016721"
+          src="/public/profile.jpg"
           alt=""
           class="rounded-xl md:w-full w-96 h-full object-cover"
         />
